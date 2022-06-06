@@ -16,8 +16,8 @@ def input_students
       puts "Now we have #{students.count} students"
     end
     # get another name from the user
-    name = gets.chomp
-    cohort = gets.chomp
+    name = gets.chop
+    cohort = gets.chop
   end
   # return the array of students
   students
@@ -30,7 +30,7 @@ end
 
 def print(students)
   students.each_with_index do |student, index|
-      puts "#{index+1}. #{student[:name]} (#{student[:cohort]} cohort)"
+      puts "#{index+1}. #{student[:name]} (#{student[:cohort]} cohort)".center(50)
   end
 end
   
