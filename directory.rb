@@ -24,13 +24,15 @@ def input_students
 end
 
 def print_header
-  puts "The students of Villains Academy"
-  puts "-------------"
+    puts "The students of Villains Academy"
+    puts "-------------"
 end
 
 def print(students)
-  students.each_with_index do |student, index|
+  if students.length >=1
+    students.each_with_index do |student, index|
       puts "#{index+1}. #{student[:name]} (#{student[:cohort]} cohort)".center(50)
+    end
   end
 end
   
