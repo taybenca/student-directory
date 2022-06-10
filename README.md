@@ -14,3 +14,4 @@ This project has an interactive menu that asks the user to:
 - Save the list in another file
 - Load the list from a file
 - Or exit the program
+<img src=http://ForTheBadge.com/images/badges/built-with-love.svg>
